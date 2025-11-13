@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Copy Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <!-- Header -->
+        <div class="popup-header">
+            <div class="header-content">
+                <h1 class="popup-title">Math Copy</h1>
+                <div class="version">v1.0</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="popup-content">
+            <!-- Format Selection -->
+            <div class="main-section">
+                <label for="format-select" class="format-label">
+                    <span class="label-text">Output Format</span>
+                </label>
+                <select id="format-select" class="format-select">
+                    <option value="mathml" selected>MathML (Word)</option>
+                    <option value="latex">LaTeX</option>
+                    <option value="unicode">Unicode</option>
+                </select>
+            </div>
+
+            <!-- Quick Settings -->
+            <div class="quick-settings">
+                <div class="setting-row">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="auto-copy" class="toggle-input" checked>
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-text">Auto-copy</span>
+                    </label>
+                </div>
+                
+                <div class="setting-row">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="multi-selection" class="toggle-input" checked>
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-text">Multi-select</span>
+                    </label>
+                </div>
+                
+                <div class="setting-row">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="dark-mode" class="toggle-input">
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-text">Dark mode</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Selection Status -->
+            <div class="selection-status" id="selection-status" style="display: none;">
+                <div class="selection-info">
+                    <span id="selection-count">0 selected</span>
+                </div>
+                <div class="selection-actions">
+                    <button id="copy-selected" class="btn btn-primary" disabled>Copy</button>
+                    <button id="clear-selection" class="btn btn-secondary" disabled>Clear</button>
+                </div>
+            </div>
+
+            <!-- Recent History -->
+            <div class="recent-section">
+                <div class="section-header">
+                    <h3>Recent</h3>
+                    <button id="clear-history" class="btn-clear" title="Clear History">×</button>
+                </div>
+                <div id="clipboard-history" class="history-list">
+                    <div class="empty-state">
+                        <p>No equations copied yet</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enable/Disable Controls -->
+            <div class="enable-disable-section">
+                <button id="disable-page" class="btn btn-outline">Disable on this page</button>
+                <button id="disable-site" class="btn btn-outline">Disable on this site</button>
+                <button id="enable-page" class="btn btn-outline" style="display: none;">Enable on this page</button>
+                <button id="enable-site" class="btn btn-outline" style="display: none;">Enable on this site</button>
+            </div>
+
+            <!-- Footer Actions -->
+            <div class="footer-actions">
+                <button id="advanced-btn" class="btn btn-outline">Advanced</button>
+                <button id="help-btn" class="btn btn-outline">Help</button>
+            </div>
+
+            <!-- Attribution -->
+            <div class="attribution">by Tefo</div>
+
+            <!-- Status Bar -->
+            <div id="status-bar" class="status-bar hidden">
+                <span id="status-text"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
