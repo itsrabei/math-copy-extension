@@ -208,7 +208,8 @@ Your clipboard history and usage statistics are stored locally in your browser a
 
 ---
 
-Made for the mathematical community by Tefo
+Made with ❤️ for the mathematical community by Tefo
+
 
 
 
