@@ -2,7 +2,7 @@
 
 A powerful browser extension for copying mathematical equations in multiple formats, with MathML as the default for perfect MS Word integration.
 
-**Available on [Chrome Web Store](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID])** | [GitHub Repository](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+**Available on [Chrome Web Store(soon)](https://chrome.google.com/)** | [GitHub Repository](https://github.com/itsrabei/math-copy-extension)
 
 ## Features
 
@@ -210,3 +210,4 @@ Your clipboard history and usage statistics are stored locally in your browser a
 ---
 
 Made for the mathematical community by Tefo
+
