@@ -103,7 +103,6 @@ Open the extension popup to configure:
 ├── .gitignore           # Git ignore rules
 ├── LICENSE              # MIT License
 ├── README.md            # This file
-└── QA_REPORT_COMPREHENSIVE_V1.md  # QA report
 ```
 
 ### Key Components
@@ -210,5 +209,6 @@ Your clipboard history and usage statistics are stored locally in your browser a
 ---
 
 Made for the mathematical community by Tefo
+
 
 
