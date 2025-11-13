@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (elements.helpBtn) {
             elements.helpBtn.addEventListener('click', () => {
                 chrome.tabs.create({ 
-                    url: 'https://github.com/mathcopy/help' 
+                    url: 'https://github.com/itsrabei/math-copy-extension/' 
                 });
             });
         }
