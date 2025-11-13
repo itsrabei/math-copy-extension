@@ -170,8 +170,8 @@ MIT License - see LICENSE file for details
 ## Download
 
 ### Chrome Web Store
-[![Available on Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-blue)](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID])
-[Add to Chrome](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID]) - Install from Chrome Web Store
+[![Available on Chrome Web Store (soon)](https://img.shields.io/badge/Chrome%20Web%20Store-Available-blue)](https://chrome.google.com/webstore/)
+[Add to Chrome](https://chrome.google.com/webstore/detail/) - Install from Chrome Web Store
 
 ### Manual Installation
 1. Download or clone this repository
@@ -210,4 +210,5 @@ Your clipboard history and usage statistics are stored locally in your browser a
 ---
 
 Made for the mathematical community by Tefo
+
 
